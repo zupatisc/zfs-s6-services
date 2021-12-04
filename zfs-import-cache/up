@@ -1,0 +1,2 @@
+#!/usr/bin/execlineb -P
+if -t { test -s /etc/zfs/zpool.cache } exec /usr/sbin/zpool import -c /etc/zfs/zpool.cache -aN

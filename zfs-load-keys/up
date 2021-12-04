@@ -1,0 +1,2 @@
+#!/usr/bin/execlineb -P
+if -t { test -s /usr/bin/zfs } exec /usr/bin/zfs load-key -a
